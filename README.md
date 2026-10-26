@@ -2,6 +2,10 @@
 
 A Raspberry Pi Pico 2 W USB-serial CLI and C configuration library. Configuration values are held in RAM while the program runs and are saved to flash with a CRC-32 checksum when requested.
 
+## AI Assistance
+
+This project was developed with assistance from GitHub Copilot using the MAI-Code-1.1-Flash model. The AI helped with design, code generation, debugging, refactoring, and documentation review, while the final implementation and project decisions were validated by the author.
+
 ## Build and Run
 
 This project uses the Raspberry Pi Pico SDK 2.3.0 and targets `pico2_w` by default. Open the project in VS Code with the Pico extension and run the **Compile Project** task. Put the board in BOOTSEL mode and run **Run Project** to load the resulting firmware.
